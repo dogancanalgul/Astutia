@@ -1,41 +1,28 @@
-#include <glad/glad.h>
-#define GLFW_INCLUDE_NONE
-#include <GLFW/glfw3.h>
-
+#include "Renderer/Renderer.h"
+#include <memory>
 int main(){
+	Renderer renderer;
 
-	glfwInit();
+	float vertices[] = {
+		-0.5f, -0.5f, 0.1f,
+		 0.5f, -0.5f, 0.1f,
+		-0.5f,  0.5f, 0.1f,
+		 0.5f,  0.5f, 0.1f
+	};
+	unsigned int indices[] = { 0, 1, 2, 2, 1, 3};
 
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+	std::shared_ptr <Shader> shader(new Shader());
+	std::shared_ptr< VertexBuffer> vbo( new VertexBuffer(vertices,  sizeof(vertices)));
+	vbo->layout.push<float>(3);
+	std::shared_ptr< IndexBuffer> ib( new IndexBuffer(indices, 6));
+	std::shared_ptr<VertexArray> vao( new VertexArray(vbo, ib));
 
-	GLFWwindow* window = glfwCreateWindow(640, 480, "Astutia", NULL, NULL);
-	if (!window)
-	{
-		glfwTerminate();
-	}
-
-	glfwMakeContextCurrent(window);
-	gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-	glfwSwapInterval(1);
-
-	while (!glfwWindowShouldClose(window))
-	{
-		int width, height;
-		glfwGetFramebufferSize(window, &width, &height);
-		const float ratio = width / (float)height;
-
-		glViewport(0, 0, width, height);
-		glClearColor(1.f, 0.3f, 0.3f, 1.f);
-		glClear(GL_COLOR_BUFFER_BIT);
-
-		glfwSwapBuffers(window);
+	while (!renderer.isClosed()){
 		glfwPollEvents();
+
+		renderer.clear();
+		renderer.render(shader, vao);
+		renderer.swapBuffers();
 	}
-
-	glfwDestroyWindow(window);
-
-	glfwTerminate();
 	return 0;
 }

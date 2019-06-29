@@ -2,15 +2,20 @@ workspace "Astutia"
     architecture "x64"
     configurations { "Debug", "Release" }
 
+        defines
+        {
+            --    "_CRT_SECURE_NO_WARNINGS"
+        }
+
 -- Include directories relative to root folder (solution directory)
     IncludeDir = {}
-    IncludeDir["GLFW"] = "Dependencies/GLFW/include"
-    IncludeDir["Glad"] = "Dependencies/Glad/include"
-   -- IncludeDir["glm"] = "Dependencies/glm"
+    IncludeDir["GLFW"] = "Astutia/Dependencies/GLFW/include"
+    IncludeDir["Glad"] = "Astutia/Dependencies/Glad/include"
+    IncludeDir["glm"] =  "Astutia/Dependencies/glm/glm"
 
     group "Dependencies"
-        include "Dependencies/GLFW"
-        include "Dependencies/Glad"
+        include "Astutia/Dependencies/GLFW"
+        include "Astutia/Dependencies/Glad"
     group ""
 
     project "Astutia"
@@ -26,15 +31,17 @@ workspace "Astutia"
         files
 	    {
             "%{prj.name}/src/**.h",
-            "%{prj.name}/src/**.cpp"
-	    }
+            "%{prj.name}/src/**.cpp",
+            "Dependencies/glm/glm/**.hpp",
+            "Dependencies/glm/glm/**.inl"
+        }
 
         includedirs
         {
             "%{prj.name}/src",
             "%{IncludeDir.GLFW}",
             "%{IncludeDir.Glad}",
-          --  "%{IncludeDir.glm}"
+            "%{IncludeDir.glm}"
         }
 
         links 
@@ -44,11 +51,7 @@ workspace "Astutia"
             "opengl32.lib"
         }
         filter "system:windows"
-		    systemversion "latest"
-
-		defines
-		{
-		}
+            systemversion "latest"
 
         filter "configurations:Debug"
             runtime "Debug"
