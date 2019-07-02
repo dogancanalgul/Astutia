@@ -1,10 +1,12 @@
 #version 330 core
 
-in vec3 pos;
+in vec2 texCoords;
 
 out vec4 color;
 
+uniform sampler2D diffuse_texture;
+
 void main()
 {
-	color = vec4(pos * 0.5 + 0.5, 1.f);
+	color = texture(diffuse_texture, texCoords);
 }

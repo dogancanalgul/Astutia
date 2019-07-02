@@ -1,0 +1,120 @@
+﻿'Astutia.exe' (Win32): Loaded 'D:\dev\opengl\Astutia\bin\Debug\Astutia.exe'. Symbols loaded.
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\user32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\win32u.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\gdi32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\gdi32full.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\msvcp_win.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\shell32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\SHCore.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\combase.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\bcryptprimitives.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\windows.storage.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\profapi.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\powrprof.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\umpdc.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\shlwapi.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\cryptsp.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\imm32.dll'. 
+The thread 0x1da8 has exited with code 0 (0x0).
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\uxtheme.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\winmm.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\winmmbase.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\winmmbase.dll'. 
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\winmmbase.dll'
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\winmmbase.dll'. 
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\winmmbase.dll'
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\dinput8.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\XInput1_4.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\devobj.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\dwmapi.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\InputHost.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\CoreUIComponents.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\CoreMessaging.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\propsys.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\oleaut32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\ntmarta.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\msctf.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Program Files (x86)\Letasoft Sound Booster\SBH64.dll'. Module was built without symbols.
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\ole32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\netapi32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\netutils.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Program Files (x86)\Letasoft Sound Booster\Filters\limit.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\wkscli.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\bcrypt.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\cscapi.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\hid.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\setupapi.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\wintrust.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\msasn1.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\crypt32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\opengl32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\glu32.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\DXCore.dll'. 
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(53)\opengl32.dll!00007FFA9EB32623: (caller: 00007FFA9EB328E8) ReturnHr(1) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(180)\opengl32.dll!00007FFA9EB32C2D: (caller: 00007FFA9EB3150C) ReturnHr(2) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(163)\opengl32.dll!00007FFA9EB31531: (caller: 00007FFA9EA78BB9) ReturnHr(3) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasehelper.cpp(705)\opengl32.dll!00007FFA9EB315A8: (caller: 00007FFA9EA78BB9) ReturnHr(4) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(53)\opengl32.dll!00007FFA9EB32623: (caller: 00007FFA9EB32761) ReturnHr(5) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(110)\opengl32.dll!00007FFA9EB32780: (caller: 00007FFA9EB315EF) ReturnHr(6) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasehelper.cpp(866)\opengl32.dll!00007FFA9EB31657: (caller: 00007FFA9EA78BF6) ReturnHr(7) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasehelper.cpp(820)\opengl32.dll!00007FFA9EA78E6A: (caller: 00007FFA9EA799C9) ReturnHr(8) tid(1498) 80004002 No such interface supported
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvtfi.inf_amd64_c6bc6593ed1b73dd\nvdlistx.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1e1d9702d7a010ab\ig9icd64.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\dxgi.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\ResourcePolicyClient.dll'. 
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\ResourcePolicyClient.dll'
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(53)\dxgi.dll!00007FFABA4B69FF: (caller: 00007FFABA4B6C71) ReturnHr(1) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(180)\dxgi.dll!00007FFABA4B6ECC: (caller: 00007FFABA4B6A5A) ReturnHr(2) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(163)\dxgi.dll!00007FFABA4B6A82: (caller: 00007FFABA4B5CCE) ReturnHr(3) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasehelper.cpp(705)\dxgi.dll!00007FFABA4B5D74: (caller: 00007FFABA4B635F) ReturnHr(4) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(53)\dxgi.dll!00007FFABA4B69FF: (caller: 00007FFABA4B6AED) ReturnHr(5) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(110)\dxgi.dll!00007FFABA4B6B0C: (caller: 00007FFABA4B6425) ReturnHr(6) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasehelper.cpp(866)\dxgi.dll!00007FFABA4B648D: (caller: 00007FFABA4B639F) ReturnHr(7) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasehelper.cpp(820)\dxgi.dll!00007FFABA4B63EA: (caller: 00007FFABA4760AA) ReturnHr(8) tid(1498) 80004002 No such interface supported
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\version.dll'
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvtfi.inf_amd64_c6bc6593ed1b73dd\nvdlistx.dll'
+The thread 0x3970 has exited with code 0 (0x0).
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. 
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\version.dll'
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1e1d9702d7a010ab\igdgmm64.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1e1d9702d7a010ab\igc64.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\TextInputFramework.dll'. 
+'Astutia.exe' (Win32): Loaded 'C:\Windows\System32\iertutil.dll'. 
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(53)\dxgi.dll!00007FFABA4B69FF: (caller: 00007FFABA4B6C71) ReturnHr(9) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(180)\dxgi.dll!00007FFABA4B6ECC: (caller: 00007FFABA4B6A5A) ReturnHr(10) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(163)\dxgi.dll!00007FFABA4B6A82: (caller: 00007FFABA4B5CCE) ReturnHr(11) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasehelper.cpp(705)\dxgi.dll!00007FFABA4B5D74: (caller: 00007FFABA4B635F) ReturnHr(12) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(53)\dxgi.dll!00007FFABA4B69FF: (caller: 00007FFABA4B6AED) ReturnHr(13) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasequeryimpl.cpp(110)\dxgi.dll!00007FFABA4B6B0C: (caller: 00007FFABA4B6425) ReturnHr(14) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasehelper.cpp(866)\dxgi.dll!00007FFABA4B648D: (caller: 00007FFABA4B639F) ReturnHr(15) tid(1498) 80004002 No such interface supported
+onecore\windows\directx\database\helperlibrary\lib\directxdatabasehelper.cpp(820)\dxgi.dll!00007FFABA4B63EA: (caller: 00007FFABA4760AA) ReturnHr(16) tid(1498) 80004002 No such interface supported
+The thread 0x3c60 has exited with code 0 (0x0).
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\XInput1_4.dll'
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\devobj.dll'
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\msasn1.dll'
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\crypt32.dll'
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\wintrust.dll'
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\setupapi.dll'
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\hid.dll'
+'Astutia.exe' (Win32): Unloaded 'C:\Windows\System32\dinput8.dll'
+The thread 0x18c has exited with code 0 (0x0).
+The thread 0x2908 has exited with code 0 (0x0).
+The thread 0xdac has exited with code 0 (0x0).
+The thread 0x59a8 has exited with code 0 (0x0).
+The thread 0x6d4c has exited with code 0 (0x0).
+The thread 0x3c84 has exited with code 0 (0x0).
+The thread 0x5914 has exited with code 0 (0x0).
+The thread 0x612c has exited with code 0 (0x0).
+The program '[23216] Astutia.exe' has exited with code 0 (0x0).

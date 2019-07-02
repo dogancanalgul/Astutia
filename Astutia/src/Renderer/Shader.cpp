@@ -5,12 +5,12 @@
 #include <streambuf>
 #include <string>
 
-Shader::Shader() 
+Shader::Shader(std::string fs, std::string vs)
 	: id(0) {
 	//Take in the shaders from shader directory.
-	std::string vertexShader = readFile("res/shader/vs.shader");
+	std::string vertexShader = readFile(vs.c_str());
 
-	std::string fragmentShader = readFile("res/shader/fs.shader");
+	std::string fragmentShader = readFile(fs.c_str());
 
 	//send shaders to opengl and compile them
 	unsigned int vertexId = compileShader(GL_VERTEX_SHADER, vertexShader.c_str());

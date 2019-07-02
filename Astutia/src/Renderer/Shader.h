@@ -4,7 +4,7 @@
 
 class Shader {
 public:
-	Shader();
+	Shader(std::string fs = "res/shader/fs.shader", std::string vs = "res/shader/vs.shader");
 	~Shader();
 
 	void bind() const;

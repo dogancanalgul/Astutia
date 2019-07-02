@@ -12,6 +12,7 @@ workspace "Astutia"
     IncludeDir["GLFW"] = "Astutia/Dependencies/GLFW/include"
     IncludeDir["Glad"] = "Astutia/Dependencies/Glad/include"
     IncludeDir["glm"] =  "Astutia/Dependencies/glm/glm"
+    IncludeDir["stb_image"] =  "Astutia/Dependencies/stb_image/imp"
 
     group "Dependencies"
         include "Astutia/Dependencies/GLFW"
@@ -32,8 +33,10 @@ workspace "Astutia"
 	    {
             "%{prj.name}/src/**.h",
             "%{prj.name}/src/**.cpp",
-            "Dependencies/glm/glm/**.hpp",
-            "Dependencies/glm/glm/**.inl"
+            "%{prj.name}/Dependencies/glm/glm/**.hpp",
+            "%{prj.name}/Dependencies/glm/glm/**.inl",
+			"%{prj.name}/Dependencies/stb_image/imp/**.h",
+			"%{prj.name}/Dependencies/stb_image/imp/**.cpp"
         }
 
         includedirs
@@ -41,7 +44,8 @@ workspace "Astutia"
             "%{prj.name}/src",
             "%{IncludeDir.GLFW}",
             "%{IncludeDir.Glad}",
-            "%{IncludeDir.glm}"
+            "%{IncludeDir.glm}",
+            "%{IncludeDir.stb_image}"
         }
 
         links 
