@@ -5,6 +5,7 @@
 
 class Player {
 	friend class Game;
+	friend class World;
 public:
 	Player();
 	void update(std::vector<Event>& events);

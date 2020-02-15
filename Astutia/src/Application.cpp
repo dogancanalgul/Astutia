@@ -1,11 +1,19 @@
 #include "Renderer/Renderer.h"
 #include "Game/Game.h"
-
+#include <iostream>
 int main(){
 	Game game;
 
-	float angle = 0;
-	while (!Renderer::renderer.isClosed()){
+	float time = glfwGetTime();
+	int fps = 0;
+
+	while (!Renderer::renderer.isClosed()) {
+		++fps;
+		if (glfwGetTime() - time >= 1) {
+				std::cout << "FPS : " << fps << std::endl;
+				time = glfwGetTime();
+				fps = 0;
+		}
 		glfwPollEvents();
 
 		game.update();
@@ -41,9 +49,11 @@ int main(){
 //CREATE GRAVITY												done
 //CREATE BOX SELECTION											done
 //CREATE SKYBOX													done
-//CREATE CHUNKS													
-//CREATE FACE CULLING SYSTEM									
+//CREATE CHUNKS													done
+//CREATE SAVE SYSTEM FOR CHUNKS									
+
 //UPDATE CHUNK SYSTEM SO IT CAN GENERATE ALL AROUND YOU			
+//CREATE FACE CULLING SYSTEM									
 
 
 //(EVERY KIND OF CUBE WILL HAVE DIFFERENT STATIC CUBEMESH)

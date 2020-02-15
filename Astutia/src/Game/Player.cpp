@@ -54,7 +54,7 @@ void Player::checkInAir() {
 }
 void Player::fall() {
 	glm::vec3 temp(cam.getPos());
-	temp.y += fallSpeed;
+	temp.y += fallSpeed * Game::DELTATIME;
 	std::shared_ptr<Box> box = Game::collisionDetection(temp + glm::vec3(0.f, -1.01f, 0.f));
 	if (box->getPos().y == -10000) {//Continues Falling
 		if (fallSpeed >= -0.05f) {

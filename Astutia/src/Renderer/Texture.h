@@ -9,7 +9,7 @@ public:
 	void bind(unsigned int slot = 0);
 	void unbind() const;
 
-	inline unsigned int getId() const { return this->id; };
+	inline unsigned int getId()  { return this->id; };
 	inline const char* getType() const { return this->type.c_str(); };
 private:
 	unsigned int id;

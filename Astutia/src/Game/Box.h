@@ -20,7 +20,8 @@ public:
 	float getScale() const { return scaleAll; }
 	glm::vec3 getRotationAxis() const { return rotationAxis; }
 	float getRotationDegree() const { return rotationDegree; }
-	
+	std::vector<std::unique_ptr<Mesh>>& getType() { return *type; }
+
 	void drawCubeMesh(std::shared_ptr<Shader>& shader);
 	static void init();
 

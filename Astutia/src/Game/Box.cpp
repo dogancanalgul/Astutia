@@ -117,6 +117,4 @@ void Box::init() {
 		grassCube.push_back(std::unique_ptr<Mesh>(new Mesh(vecs[i], ind, grassSide)));
 	grassCube.push_back(std::unique_ptr<Mesh>(new Mesh(vecs[4], ind, dirt)));
 	grassCube.push_back(std::unique_ptr<Mesh>(new Mesh(vecs[5], ind, grass)));
-
-	//skyboxInit(vecs, ind);
 }
